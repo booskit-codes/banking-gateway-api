@@ -2,9 +2,9 @@
 
 $uriSegments = explode("/", parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
 $lastUriSegment = array_pop($uriSegments);
-$fleeca_gateway_url = "http://banking.local/gateway/";
-$fleeca_token_url = "http://banking.local/gateway_token/";
-$auth_key = "elbSESftufNV2lnMTX01ET0mFLvuGn6RgPFVSAXAvaLgG0WUxliaigsi69utHqfp";
+$fleeca_gateway_url = "http://banking.gta.world/gateway/";
+$fleeca_token_url = "http://banking.gta.world/gateway_token/";
+$auth_key = "DvmI9O0yKHH5oHpZov9k2E9qLmRGi4TvH9LbAztW3u0aI22FoHxyT4S4GVU7Jrna";
 
 ?>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
